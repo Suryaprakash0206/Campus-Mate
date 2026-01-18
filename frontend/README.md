@@ -1,11 +1,12 @@
 ### **Project Description**
 
 **Homepage**
-I designed the homepage as a clean entry point with a split layout. The left section displays the Campus Mate logo to establish identity, while the right section contains a card with two clear options: Student Login and Faculty Login. Navigation is handled using React Router, so users can move to the respective login pages without reloading. A soft gradient background and centered layout were used to give a modern and professional look.
+The homepage was created using React with a split layout. Flexbox was used to divide the screen into two sections. The left section displays the Campus Mate logo, while the right section contains a card with Student Login and Faculty Login buttons. React Router was used for navigation to move between pages without reloading. A gradient background and card-based design were applied using CSS for a modern and clean appearance.
 
 **Login Pages (Student & Faculty)**
-I created separate login pages for students and faculty with a common layout for consistency. Each page includes input fields for ID and password along with a login button. On successful login (navigation click), the user is redirected to the dashboard. The design focuses on simplicity, using a centered login box, rounded inputs, and subtle shadows to keep the interface user-friendly.
+The login pages were built as separate React components with a shared design structure. Each page includes input fields for user ID and password along with a login button. Navigation to the dashboard is handled using React Router. CSS was used to center the login box, add rounded corners, shadows, and maintain consistent styling across both login pages.
 
 **Dashboard**
-The dashboard is structured with a full-width top header displaying the Campus Mate title and logo, followed by the main content area. Below the header, a sidebar provides quick access to sections like Profile, Announcements, Exams, Hackathons, and Drive. The remaining space is used for dashboard cards such as Schedule and Works. Flexbox is used to manage the layout, ensuring clarity, responsiveness, and proper space utilization across different screen sizes.
+The dashboard was developed using a modular component structure. A full-width top bar was created using a header component to display the Campus Mate logo and title. Below the top bar, a sidebar component was placed for navigation links such as Profile, Announcements, Exams, Hackathons, and Drive. The main content area displays dashboard cards like Schedule and Works. Flexbox and responsive CSS were used to manage layout alignment, spacing, and adaptability across different screen sizes.
+
 
