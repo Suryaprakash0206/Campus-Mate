@@ -10,7 +10,17 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/student" element={<StudentLogin />} />
       <Route path="/faculty" element={<FacultyLogin />} />
-      <Route path="/dashboard" element={<Dashboard />} />
+
+      <Route path="/dashboard/:role" element={<Dashboard />}>
+        <Route path="announcements" />
+        <Route path="exams" />
+        <Route path="hackathons" />
+        <Route path="drives" />
+        <Route path="profile" />
+        <Route path="timetable" />
+        <Route path="permissions" />
+        <Route path="granted" />
+      </Route>
     </Routes>
   );
 }
